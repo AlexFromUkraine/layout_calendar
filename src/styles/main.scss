@@ -18,14 +18,14 @@ body {
 .page {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .calendar {
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
-  align-self: center;
   gap: $cell-gap;
   padding: $cell-padding;
   width: $cell-size * 7 + $cell-gap * 6 + $cell-padding * 2;
